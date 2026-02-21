@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "nfactory.liminal_daylight.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "liminal_daylight.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "TextureAtlasMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
